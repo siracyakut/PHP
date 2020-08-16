@@ -8,7 +8,6 @@ $context = stream_context_create(array(
     )
 ));
 $data = file_get_contents("https://api.collectapi.com/health/dutyPharmacy?il=" . $sehir, false, $context);
-
 $veri = json_decode($data);
 ?>
 
