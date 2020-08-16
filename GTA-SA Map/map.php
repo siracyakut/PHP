@@ -1,8 +1,6 @@
 <?php
-
 $pin = imagecreatefrompng("pin.png");
 $img = imagecreatefromjpeg("map_full.jpg");
-
 
 if(isset($_GET["x"]) && isset($_GET["y"]))
 {
@@ -18,5 +16,4 @@ if(isset($_GET["x"]) && isset($_GET["y"]))
 header('Content-Type: image/png');
 imagepng($img);
 imagedestroy($img);
-
 ?>
