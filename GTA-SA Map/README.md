@@ -5,7 +5,7 @@ GTA: San Andreas oyununun haritasında istediğiniz koordinatın işaretlenerek 
 # Kullanım
 
 İstek:<br>
-````csharp
+````c#
 http://127.0.0.1/sa_map/map.php?x=-2331&y=-1633
 ````
 
